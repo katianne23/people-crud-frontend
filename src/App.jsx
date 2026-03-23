@@ -2,10 +2,12 @@ import { Logo } from "./components/icons/Logo";
 import { More } from "./components/icons/More";
 import "./App.css";
 import "./Index.css";
+import { PersonList } from "./components/person/PersonList";
+import { PersonsProvider } from "./hooks/usePerson";
 
 function App() {
   return (
-
+    <PersonsProvider >
       <div className="app">
         <header className="app-header">
           <div className="container">
@@ -21,7 +23,14 @@ function App() {
             </div>
           </div>
         </header>
+
+        <main className="app-main">
+          <div className="container">
+            <PersonList />
+          </div>
+        </main>
       </div>
+      </PersonsProvider>
   );
 }
 

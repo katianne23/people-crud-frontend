@@ -24,7 +24,7 @@ api.interceptors.response.use(
 );
 
 export const personAPI = {
-  getAll: () => api.get("/pessoas"),
+  getAll: () => api.get("/pessoa"),
 
   getById: (id) => api.get(`/pessoa/${id}`),
 

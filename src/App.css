@@ -1,6 +1,7 @@
 .app {
   min-height: 100vh;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: "DM Sans", sans-serif;
 }
 
 .app-header {
@@ -44,6 +45,15 @@
   font-size: 1rem;
 }
 
+.app-main {
+  padding: 2rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
 
 @media (max-width: 768px) {
   .header-content {
