@@ -1,7 +1,6 @@
 import { Logo } from "./components/icons/Logo";
 import { More } from "./components/icons/More";
 import "./App.css";
-import "./Index.css";
 import { PersonList } from "./components/person/PersonList";
 import { PersonsProvider } from "./hooks/usePerson";
 import { PersonForm } from "./components/personForm/PersonForm";
