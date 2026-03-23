@@ -51,7 +51,7 @@ export function PersonList({ onEdit }) {
         <span className="person-count">{persons.length} pessoa(s)</span>
       </div>
 
-      <div className="card-grid">
+      <div className="cards-grid">
         {persons.map((person, index) => (
           <PersonCard
             key={person.id}
